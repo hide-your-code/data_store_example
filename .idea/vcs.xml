@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/company/baseball" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/google_io" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/movie_architecture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sun_flow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/todo_app" vcs="Git" />
+  </component>
+</project>

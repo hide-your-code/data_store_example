@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/preferences_datastore">
+
+    <fragment
+        android:id="@+id/preferences_datastore"
+        android:name="minhdtm.example.exampledatastore.ui.preferencesdatastore.PreferencesDataStoreFragment"
+        android:label="@string/title_fragment_preferences_datastore"
+        tools:layout="@layout/fragment_preferences_datastore" />
+</navigation>

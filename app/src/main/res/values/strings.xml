@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExampleDataStore</string>
+
+    <string name="title_fragment_preferences_datastore">Preferences DataStore</string>
+</resources>
