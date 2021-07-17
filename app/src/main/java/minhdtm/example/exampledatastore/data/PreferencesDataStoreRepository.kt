@@ -6,7 +6,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class DataStoreRepository @Inject constructor(private val dataStore: DataStoreHelper) {
+class PreferencesDataStoreRepository @Inject constructor(private val dataStore: DataStoreHelper) {
 
     suspend fun setCount(count: Int) {
         dataStore.setCount(count)

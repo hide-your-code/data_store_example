@@ -2,4 +2,13 @@
     <string name="app_name">ExampleDataStore</string>
 
     <string name="title_fragment_preferences_datastore">Preferences DataStore</string>
+
+    <!-- Fragment Proto DataStore -->
+    <string name="fragment_proto_datastore_title">Proto DataStore</string>
+    <string name="fragment_proto_datastore_error_name_or_number_null">Please enter name or phone!</string>
+    <string name="fragment_proto_datastore_error_number_must_have_10_digits">Phone number must have 10 digits</string>
+    <string name="fragment_proto_datastore_error_clear_data">Clear data fail!</string>
+    <string name="fragment_proto_datastore_success_clear_data">Clear data success!</string>
+    <string name="fragment_proto_datastore_error_save_data">Save data fail!</string>
+    <string name="fragment_proto_datastore_success_save_data">Save data success!</string>
 </resources>

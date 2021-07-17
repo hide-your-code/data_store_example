@@ -17,7 +17,7 @@ import javax.inject.Singleton
 @Singleton
 class DataStoreHelper @Inject constructor(@ApplicationContext private val context: Context) {
 
-    //region Init DataStore
+    //region Init Preferences DataStore
     private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = PREFERENCE_NAME)
 
     // If you want migrate from SharePreference to DataStore, using this.

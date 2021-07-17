@@ -7,7 +7,13 @@
 
     <fragment
         android:id="@+id/preferences_datastore"
-        android:name="minhdtm.example.exampledatastore.ui.preferencesdatastore.PreferencesDataStoreFragment"
+        android:name="minhdtm.example.exampledatastore.ui.preferences.PreferencesDataStoreFragment"
         android:label="@string/title_fragment_preferences_datastore"
         tools:layout="@layout/fragment_preferences_datastore" />
+
+    <fragment
+        android:id="@+id/proto_datastore"
+        android:name="minhdtm.example.exampledatastore.ui.proto.ProtoDataStoreFragment"
+        android:label="@string/fragment_proto_datastore_title"
+        tools:layout="@layout/fragment_proto_datastore" />
 </navigation>

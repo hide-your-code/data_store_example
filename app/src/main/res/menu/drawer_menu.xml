@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/preferences_datastore"
+        android:contentDescription="@string/title_fragment_preferences_datastore"
+        android:title="@string/title_fragment_preferences_datastore" />
+
+    <item
+        android:id="@+id/proto_datastore"
+        android:contentDescription="@string/fragment_proto_datastore_title"
+        android:title="@string/fragment_proto_datastore_title" />
+</menu>

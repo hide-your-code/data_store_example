@@ -1,4 +1,4 @@
-package minhdtm.example.exampledatastore.ui.preferencesdatastore
+package minhdtm.example.exampledatastore.ui.preferences
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,19 +10,21 @@ import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import minhdtm.example.exampledatastore.R
 import minhdtm.example.exampledatastore.databinding.FragmentPreferencesDatastoreBinding
+import minhdtm.example.exampledatastore.ext.autoClear
 
 @AndroidEntryPoint
 class PreferencesDataStoreFragment : Fragment() {
 
-    private lateinit var binding: FragmentPreferencesDatastoreBinding
+    private var binding: FragmentPreferencesDatastoreBinding by autoClear()
 
     private val viewModel: PreferencesDataStoreViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_preferences_datastore, container, false)
-        binding.viewModel = viewModel
-        binding.lifecycleOwner = viewLifecycleOwner
 
-        return binding.root
+        return binding.apply {
+            lifecycleOwner = viewLifecycleOwner
+            viewModel = this@PreferencesDataStoreFragment.viewModel
+        }.root
     }
 }
